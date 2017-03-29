@@ -15,7 +15,7 @@ class Hydra
   end
 
   def dead?
-    @heads = 0
+    @heads == 0
   end
 
 end
